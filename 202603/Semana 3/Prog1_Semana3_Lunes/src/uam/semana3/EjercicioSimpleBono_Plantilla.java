@@ -1,5 +1,4 @@
 package uam.semana3;
-
 // Importación de la herramienta para leer flujos de texto del teclado 
 import java.io.PrintStream;
 import java.io.UnsupportedEncodingException;
