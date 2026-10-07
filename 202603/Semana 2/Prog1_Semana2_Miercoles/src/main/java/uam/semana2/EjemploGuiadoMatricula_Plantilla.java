@@ -8,10 +8,8 @@ public class EjemploGuiadoMatricula_Plantilla {
         Scanner sc = new Scanner(System.in);
         
         // Forzar salida en consola para caracteres especiales
-        try {
-            System.setOut(new PrintStream(System.out, true, "UTF-8"));
-        } catch (Exception ex) {
-        }
+        try {System.setOut(new PrintStream(System.out, true, "UTF-8"));} catch (Exception ex) {}
+        
         double montoMatricula;
         double recargo = 10000.0;
         double montoFinal;
